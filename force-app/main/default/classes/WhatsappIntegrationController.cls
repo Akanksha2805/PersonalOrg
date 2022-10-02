@@ -13,7 +13,7 @@ public class WhatsappIntegrationController {
         req.setHeader('Content-Type', 'application/json');
         req.setMethod('POST');
         
-        String apiKey='EABywUEYufDkBANAMnjHynaM377eHpELvyXoZB6INugrj06nkqc4SD24myYFyyuQnVtEpxUKZBisO86xrgw33bQN2sBYnPuuIdUDRKZA1XZC3xuUaGbR1VkOebYHlyXF4j9vgEG83kGmBZBd3EclkhrXfZBVh2aCxb4jowwZATM2IVRlbVgmJiBvrRCjh38EwLqEBtZCm4gddk6MSSXMgofmH';
+        String apiKey='Enter your Api Key';
         String body='{"messaging_product":"whatsapp","to":"917310012248","text":{"body":"'+messageBody+'"}}';
         
         req.setHeader('Authorization', 'Bearer '+apiKey);
